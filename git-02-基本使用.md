@@ -242,7 +242,9 @@
 	- git remote rename pb paul `把远程仓库由 pb 重命名为 paul`
 	- git remote rm paul	
 	- git push --delete origin devel `删除远程分支`
-
+	- 
+	- git svn clone -A users.txt http://example.com/svn/app/appname appname
+	- git svn fetch
 
 0. windows下添加git ssh 公钥
 

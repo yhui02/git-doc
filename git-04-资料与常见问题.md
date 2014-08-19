@@ -66,6 +66,11 @@
 	
 		git push --delete origin devel
 
+0. 为什么报SSL错误？
+
+	关闭命令：
+
+		git config --global http.sslVerify false
 
 --------------------------------------------------------
 
