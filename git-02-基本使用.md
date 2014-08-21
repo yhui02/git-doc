@@ -245,6 +245,7 @@
 	- 
 	- git svn clone -A users.txt http://example.com/svn/app/appname appname
 	- git svn fetch
+	- git remote set-url origin git://new.url.here `Change the URI (URL) for a remote Git repository`
 
 0. windows下添加git ssh 公钥
 
