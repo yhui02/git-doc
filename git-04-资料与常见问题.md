@@ -54,6 +54,12 @@
 	工程内的任何文件可随意修改、重命名、删除等，（不可随意改动工程根目录的`.git`文件夹及文件），在操作加入“缓存区“或“提交”（部分GUI可能将两步合并为一步，即为“提交”）时，Git会聪明的知道所有的改动。
 	
 	当然 Git 本身也提供了 `git mv` 等命令。
+	
+0. `fetch` 和 `pull` 有什么区别？
+
+	- git fetch：相当于是从远程获取最新版本到本地，不会自动merge；
+	- git pull：相当于是从远程获取最新版本并merge到本地；
+
 
 0. 添加远程仓库的命令`git remote add origin <server>`中的 `origin` 是什么意思？
 
@@ -77,6 +83,13 @@
 	git工程下执行：
 	
 		git config user.name yourname
+
+0. 如何用命令行查看每个提交所在的分支及其分化衍合情况？
+
+		git log --pretty=format:"%h %s" --graph
+		git log --pretty=format:"%h - %an, %ar : %s" --graph
+
+<img src="img/git-graph-demo.png" style="width:100%;" title="git graph demo">
 
 
 
