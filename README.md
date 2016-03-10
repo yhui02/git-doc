@@ -12,4 +12,5 @@
 
 --------------------------------------
 
-- [https://github.com/yhui02/git-doc](https://github.com/yhui02/git-doc)
+- [《git-doc》 on github](https://github.com/yhui02/git-doc)
+- [《git-doc》 on Gitbook](https://www.gitbook.com/book/yhui02/git-doc/details)
